@@ -4,7 +4,7 @@ export default function HeroSection() {
   return (
     <section className="hero">
       <img
-        src="/images/heroImg.png"
+        src={process.env.PUBLIC_URL + "/images/heroImg.png"}
         alt="background"
         className="hero--logo"
       />
